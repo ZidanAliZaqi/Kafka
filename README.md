@@ -1,8 +1,12 @@
 # Kafka
-Make a Python virtual environment : python -m venv env
-Run command env/bin/activate
-Install libraries from requirements.txt : pip install -r requirements.txt
-Make sure you are inside stream-kafka-docker directory and run command docker-compose up
-Wait until docker setup the image and container
-Run python consumer.py
-Run python producer.py
+
+## How To Run
+
+1. Make a Python virtual environment: `python -m venv env`
+2. Run command: `env/Scripts/activate`
+3. Install libraries from requirements.txt: `pip install -r requirements.txt`
+4. Make sure you are inside stream-kafka-docker directory and run command: `docker-compose up`
+5. Wait until docker setup the image and container
+6. Run: `python producer.py`
+7. Run: `python consumer.py`
+8. Connect to localhost:9021
